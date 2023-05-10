@@ -1,13 +1,24 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillInstagram } from 'react-icons/ai'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+        <p className={styles.social__icons_layout}>
+          <a href='#'>
+            <AiFillGithub className={styles.socials}/>
+          </a>
+          <a href='#'>
+            <AiFillLinkedin className={styles.socials}/>
+          </a>
+          <a href='#'>
+            <AiFillInstagram className={styles.socials}/>
+          </a>
+          {/* <code className={styles.code}>src/app/page.js</code> */}
         </p>
         <div>
           <a
