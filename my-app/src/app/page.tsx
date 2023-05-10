@@ -86,19 +86,24 @@ export default function Home() {
           <p>Explore the Next.js 13 playground.</p>
         </a>
 
-        {/*<a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+        <a
+          href=""
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            About Me <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            I started Web development when I was about 15 years old. Coming 
+            from a Design background, I later became more and more interested in Code and Software engineering.
+            it was quite a long way until I got into the matter but as seen in my cv, in 2020 I decided to study 
+            Computer Science thinking that it was just code... It wasnt! Regardless it was a good time, the 
+            Network and the Work experience that I was allowed to gather as a working student got me truly to the next
+            level. Now I live with my wife and my daughter in Pankow for my last year in University. 
           </p>
-        </a>*/}
+        </a>
       </div>
     </main>
   )
